@@ -1,0 +1,60 @@
+import React from "react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@nextui-org/react";
+import Link from "next/link"
+import CustomButton from "../custom-button";
+import { SocialMedia } from "../constants";
+import img from '@/images/emre2.jpg'
+import Image from "next/image"
+
+export default function App() {
+    return (
+        <Navbar className='bg-[#191924] text-white font-medium h-20'>
+            <NavbarBrand>
+                <div>
+                    <div className="flex items-center gap-2">
+                        <Image src={img} className="rounded-full" width={40} height={40} />
+                        <div className="flex flex-col">
+                            <div className="text-sm font-medium text-[#D6EDFC]">Emre Özkaplan</div>
+                            <Link href={SocialMedia.instagramUrl} target="_blank" rel="noreferrer" className="text-[#91949C] text-xs font-normal">{SocialMedia.instagramText}</Link>
+                        </div>
+                    </div>
+                </div>
+            </NavbarBrand>
+            <NavbarContent className="hidden md:flex gap-4" justify="center">
+                <NavbarItem>
+                    <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#about">
+                        About
+                    </Link>
+                </NavbarItem>
+                <NavbarItem>
+                    <Link href="#skills" className="hover:text-[#854CE6] ease-in-out duration-300" aria-current="page">
+                        Skills
+                    </Link>
+                </NavbarItem>
+                <NavbarItem>
+                    <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#experience">
+                        Experience
+                    </Link>
+                </NavbarItem>
+                <NavbarItem>
+                    <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#projects">
+                        Projects
+                    </Link>
+                </NavbarItem>
+                <NavbarItem>
+                    <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#contact">
+                        Contact
+                    </Link>
+                </NavbarItem>
+
+            </NavbarContent>
+            <NavbarContent justify="end">
+                <NavbarItem>
+                    <Link target="_blank" href={SocialMedia.githubUrl}>
+                        <CustomButton title='Github Profile' height="50px" width="150px" />
+                    </Link>
+                </NavbarItem>
+            </NavbarContent>
+        </Navbar>
+    );
+}
