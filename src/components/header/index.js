@@ -22,29 +22,29 @@ export default function App() {
             </NavbarBrand>
             <NavbarContent className="hidden md:flex gap-4" justify="center">
                 <NavbarItem>
-                    <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#about">
+                    <a color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#about">
                         About
-                    </Link>
+                    </a>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link href="#skills" className="hover:text-[#854CE6] ease-in-out duration-300" aria-current="page">
+                    <a href="#skills" className="hover:text-[#854CE6] ease-in-out duration-300" aria-current="page">
                         Skills
-                    </Link>
+                    </a>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#experience">
+                    <a color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#experience">
                         Experience
-                    </Link>
+                    </a>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#projects">
+                    <a color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#projects">
                         Projects
-                    </Link>
+                    </a>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#contact">
+                    <a color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#contact">
                         Contact
-                    </Link>
+                    </a>
                 </NavbarItem>
 
             </NavbarContent>
