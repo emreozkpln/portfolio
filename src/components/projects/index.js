@@ -33,7 +33,7 @@ export default function Projects() {
                                                 <div className="font-light mt-2 text-[#b1b2b399] line-clamp-3">{project.projectDescription}</div>
                                             </Tooltip>
                                         </div>
-                                        <Link href={project.url}>
+                                        <Link href={project.url} target="_blank">
                                             <CustomButton title='View' className="mb-3" />
                                         </Link>
                                     </div>
