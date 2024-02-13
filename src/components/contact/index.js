@@ -30,12 +30,12 @@ export default function Contact() {
         }
     }
     return (
-        <div id="contact" className="bg-[#1C1D2A] pt-16 pb-10 px-4 sm:px-0">
+        <div id="contact" className="bg-[#1C1D2A] pt-16 pb-10">
             <div className='w-full container mx-auto max-w-6xl text-white'>
                 <div className="flex flex-col items-center justify-center gap-6">
                     <div className="text-white text-4xl font-medium">Contact</div>
-                    <div className="text-[#b1b2b3] text-center max-w-[600px] text-lg">{Bio.descriptionContact}</div>
-                    <form onSubmit={handleSendMail} className="bg-[#191924] flex flex-col min-w-[400px] sm:min-w-[600px] p-8 gap-3 items-center rounded-xl">
+                    <div className="text-[#b1b2b3] text-center max-w-[600px] text-sm sm:text-lg">{Bio.descriptionContact}</div>
+                    <form onSubmit={handleSendMail} className="bg-[#191924] flex flex-col max-w-[300px] sm:min-w-[600px] p-8 gap-3 items-center rounded-xl">
                         <div className="text-2xl font-semibold text-[#F2F3F4] flex gap-2">Email Me <IoRocketSharp size={25} /></div>
                         <input
                             type="email"
@@ -68,7 +68,7 @@ export default function Contact() {
                             placeholder="Your Message"
                             className="bg-transparent w-full h-40 outline-none border border-solid border-[#b1b2b3] px-3 py-4 rounded-xl focus:border-[#854CE6] placeholder:text-[#F2F3F4] placeholder:text-lg placeholder:font-thin"
                         />
-                        <CustomButton title='Submit' />
+                        <CustomButton title='Submit' width="200px" />
                     </form>
                 </div>
             </div>

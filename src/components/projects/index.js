@@ -8,15 +8,15 @@ import Link from "next/link";
 export default function Projects() {
 
     return (
-        <div id="projects" className="bg-[#1C1C27] pt-16 pb-10 px-4 lg:px-0">
+        <div id="projects" className="bg-[#1C1C27] pt-16 pb-10">
             <div className='w-full container mx-auto max-w-6xl text-white'>
                 <div className="flex flex-col items-center justify-center gap-6">
                     <div className="text-white text-4xl font-medium">Projects</div>
-                    <div className="text-[#b1b2b3] text-center max-w-[600px] text-lg">{Bio.descriptionProjects}</div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div className="text-[#b1b2b3] text-center text-xs sm:text-lg">{Bio.descriptionProjects}</div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
                         {
                             ProjectsSet.map((project, index) => (
-                                <div key={index} className="bg-[#171721] p-5 rounded-xl shadow-large">
+                                <div key={index} className="bg-[#171721] p-5 rounded-xl shadow-large ]">
                                     <div className="flex flex-col items-center gap-3">
                                         <Image src={project.projectImg} alt="" className="w-full h-40" />
                                         <div className="grid grid-cols-3 w-full gap-1">
@@ -34,7 +34,7 @@ export default function Projects() {
                                             </Tooltip>
                                         </div>
                                         <Link href={project.url} target="_blank">
-                                            <CustomButton title='View' className="mb-3" />
+                                            <CustomButton title='View' className="mb-3" width="250px" />
                                         </Link>
                                     </div>
                                 </div>

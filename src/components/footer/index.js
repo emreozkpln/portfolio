@@ -9,21 +9,21 @@ export default function Footer() {
                 <div className="flex flex-col items-center justify-center gap-6">
                     <div className="text-[#854CE6] text-xl font-semibold">Emre Özkaplan</div>
                     <div className="flex gap-4 sm:gap-9 text-sm sm:text-xl">
-                        <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#about">
+                        <a color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#about">
                             About
-                        </Link>
-                        <Link href="#skills" className="hover:text-[#854CE6] ease-in-out duration-300" aria-current="page">
+                        </a>
+                        <a href="#skills" className="hover:text-[#854CE6] ease-in-out duration-300" aria-current="page">
                             Skills
-                        </Link>
-                        <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#experience">
+                        </a>
+                        <a color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#experience">
                             Experience
-                        </Link>
-                        <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#projects">
+                        </a>
+                        <a color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#projects">
                             Projects
-                        </Link>
-                        <Link color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#contact">
+                        </a>
+                        <a color="foreground" className="hover:text-[#854CE6] ease-in-out duration-300" href="#contact">
                             Contact
-                        </Link>
+                        </a>
                     </div>
                     <div className="flex gap-8">
                         <Link className="hover:text-[#854CE6] ease-in-out duration-300" href={SocialMedia.githubUrl} target="_blank">
@@ -36,7 +36,7 @@ export default function Footer() {
                             <FaInstagram size={23} />
                         </Link>
                     </div>
-                    <div className="mt-6 text-base">{Bio.descriptionFooter}</div>
+                    <div className="mt-6 text-sm sm:text-base">{Bio.descriptionFooter}</div>
                 </div>
             </div>
         </div>
