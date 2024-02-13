@@ -8,6 +8,7 @@ import Link from "next/link"
 import { motion } from "framer-motion"
 
 export default function About() {
+    console.log(process.env.RESEND_API_KEY);
     const container = {
         visible: {
             transition: {
