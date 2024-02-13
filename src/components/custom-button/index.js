@@ -9,7 +9,8 @@ export default function CustomButton({
     title,
     type,
     height = '60px',
-    width = '320px'
+    width = '320px',
+    onclick = ""
 }) {
     const [isHovered, setIsHovered] = useState(false)
     const handleStyle = {
@@ -21,7 +22,7 @@ export default function CustomButton({
     }
 
     return (
-        <button type={type ? type : 'submit'} className='rounded-full px-10 py-4 font-semibold flex items-center gap-2 ease-in-out duration-300 border max-w-80 min-w-40 justify-center' target="_blank" style={handleStyle}
+        <button type={type ? type : 'submit'} onClick={onclick} className='rounded-full px-10 py-4 font-semibold flex items-center gap-2 ease-in-out duration-300 border max-w-80 min-w-40 justify-center' target="_blank" style={handleStyle}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
