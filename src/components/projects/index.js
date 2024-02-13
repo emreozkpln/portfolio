@@ -16,7 +16,7 @@ export default function Projects() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
                         {
                             ProjectsSet.map((project, index) => (
-                                <div key={index} className="bg-[#171721] p-5 rounded-xl shadow-large ]">
+                                <div key={index} className="bg-[#171721] p-5 rounded-xl shadow-large max-w-[320px]">
                                     <div className="flex flex-col items-center gap-3">
                                         <Image src={project.projectImg} alt="" className="w-full h-40" />
                                         <div className="grid grid-cols-3 w-full gap-1">
