@@ -1,12 +1,13 @@
 import handbook from "@/images/handbook.png"
 import nextnode from "@/images/nextnode.png"
 import springreact from "@/images/springreact.jpg"
+import spring from "@/images/springboot.png"
 
 export const Bio = {
     roles: ["Full Stack Developer"],
     description: 'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
     descriptionSkills: 'Here are some of my skills on which I have been working on for the past 2 years.',
-    cvUrl: 'https://drive.google.com/file/d/1yvYCTtnUzsl_YAK9dSy3vabZ6zWyJQqZ/view?usp=sharing',
+    cvUrl: 'https://drive.google.com/file/d/1skWwbxcDsUcs5HdeXBd8OyadcM04BZ8e/view?usp=sharing',
     descriptionExperience: 'My work experience as a software engineer and working on different companies and projects.',
     descriptionProjects: 'I have worked on a wide range of projects. Here are some of my projects.',
     descriptionContact: 'Feel free to reach out to me for any questions or opportunities!',
@@ -176,7 +177,7 @@ export const ProjectsSet = [
                 skillName: 'Express Js',
             },
             {
-                skillName: 'Tailwind Css',
+                skillName: 'Tailwind',
             },
             {
                 skillName: 'MongoDb',
@@ -200,7 +201,7 @@ export const ProjectsSet = [
                 skillName: 'Express Js',
             },
             {
-                skillName: 'Tailwind Css',
+                skillName: 'Tailwind',
             },
             {
                 skillName: 'MongoDb',
@@ -225,6 +226,27 @@ export const ProjectsSet = [
             },
             {
                 skillName: 'Postgresql',
+            },
+        ]
+    },
+    {
+        projectImg: spring,
+        projectName: 'Spring Boot Example Api',
+        date: 'February 2024',
+        projectDescription: 'In my Java Spring Boot API project, I have implemented the DTO (Data Transfer Object) pattern to facilitate efficient communication between different layers of the application. By adhering to this pattern, I ve ensured a structured and organized approach to handling data transfer within the project. DTOs serve as intermediary objects that encapsulate the data exchanged between the client and the server, promoting better separation of concerns and enhancing maintainability. Through this implementation, I ve fostered a clean and scalable architecture, enabling seamless integration and extensibility for future development endeavors.',
+        url: 'https://github.com/emreozkpln/spring-boot-example-api',
+        skills: [
+            {
+                skillName: 'JavaSpring',
+            },
+            {
+                skillName: 'Postgresql',
+            },
+            {
+                skillName: 'DtoPattern',
+            },
+            {
+                skillName: 'Restful Api',
             },
         ]
     }
