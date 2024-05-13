@@ -7,7 +7,7 @@ export const Bio = {
     roles: ["Full Stack Developer"],
     description: 'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
     descriptionSkills: 'Here are some of my skills on which I have been working on for the past 2 years.',
-    cvUrl: 'https://drive.google.com/file/d/1skWwbxcDsUcs5HdeXBd8OyadcM04BZ8e/view?usp=sharing',
+    cvUrl: 'https://drive.google.com/file/d/1xuzsmjmHsl3iWsY8BvXkOtSlT99-oYe2/view?usp=sharing',
     descriptionExperience: 'My work experience as a software engineer and working on different companies and projects.',
     descriptionProjects: 'I have worked on a wide range of projects. Here are some of my projects.',
     descriptionContact: 'Feel free to reach out to me for any questions or opportunities!',
@@ -162,7 +162,7 @@ export const ExperienceSet = [
         companyName: 'Bewell Tech',
         companyImg: 'https://www.bewelltech.com.tr/_app/immutable/assets/bewell_logo.fda8f209.png',
         date: 'February 2024 - July 2024',
-        description: 'During my internship, I worked in both front-end and back-end jobs. The pallet tracking system I developed was sold to a company called MNG. Apart from that, I improved myself by taking part in various projects.',
+        description: 'I was involved in developing the frontend and backend of an e-commerce project. I worked on the front-end by using React, and the backend by using SpringBoot.',
         skills: [
             "•SpringBoot   ",
             "•TailwindCss  ",
