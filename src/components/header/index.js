@@ -3,7 +3,7 @@ import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@nextui-org/reac
 import Link from "next/link"
 import CustomButton from "../custom-button";
 import { SocialMedia } from "../constants";
-import img from '@/images/emre2.jpg'
+import img from '@/images/emre.jpg'
 import Image from "next/image"
 
 export default function App() {

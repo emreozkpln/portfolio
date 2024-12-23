@@ -2,6 +2,7 @@ import handbook from "@/images/handbook.png"
 import nextnode from "@/images/nextnode.png"
 import springreact from "@/images/springreact.jpg"
 import spring from "@/images/springboot.png"
+import springnext from "@/images/springnext.png"
 
 export const Bio = {
     roles: ["Full Stack Developer"],
@@ -160,7 +161,7 @@ export const ExperienceSet = [
     {
         job: 'Full Stack Developer Intern',
         companyName: 'Bewell Tech',
-        companyImg: 'https://www.bewelltech.com.tr/_app/immutable/assets/bewell_logo.fda8f209.png',
+        companyImg: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAwFBMVEX///84T5lNpEr5+vz9/f709voePZGZo8fm6fO22bXq7PRtfLGqstAmQpSRxI8+njr1+/V7irpus2zD4cMtR5XM0uTk8uT5/PlIokWo06ba69nr9eqs1KvP5s48njhVqlJdrVqGkr6dy5uRnMTG4cXe4e2Hv4V6unjT2Oe3vddJX6RirmA8UptosWaBvX9PYqOhtcWdu7Ric6xZa6jAxt2Wwp9SYaiCwXqAkLalusSMlcKvyMFPqEbZ7dcHMo4VOZGtDdxiAAAJaklEQVR4nO2baZeiyBKGAUVEZRERkL1wB5cZtGd6+ra3//+/msgFxOop65S9ePTE86GaJcF4MzIjIoEWBARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARB3kdu39uCX4z85XhvE34t8tTOn1qiPBXFp5YoK7ZIJI7vbchPxg11k27I044oimcvmkv1nnb9NFzVi/VAIB5kAkHinkg0rTgd3du6nwAI9CQisfIgl9gOdrHkpSP33gb+MESgJMWTpkCQeBiHBhz3trNHl6gaRKCXfLoQSCT+saMSiwcfqKrEBX7WxEvsv/74m0pMZ/c28kdQk0qg+B32X/88vkQ1pQK//pdAkjS4RCm6t6G3wj34NZva/6VQFCsvJo8p0WVBRko+fXk9BxtzcUc7QXrIgRroVKBU/O/whgtB4vQTbeNl97b2JgKdWb/9s3xL4udPZCB73uRBk2Il0XpL4udPX4mfjcm9Lb0ZPlDfkKhNqQclI3tQDxIC3eASv5+L2jSTmAfNe5v5I5iLmM/F3P7Og2SIeg8uEHLGjkqM/+6KFxI7CouiDy+QLHNBopE4Qk/UmgLlE1l0GNnDCyQD1fAKBza6+9qLttISBN/wvEcOMmdM3fLpxrwON0SgIETpcwiEiOrwjRVPGorM9v0nGKKvoBLtSuBTAhI7Ty0QJB6mrXvb8IuZP7cHEeROtNk7z9ZHX33+rmzfBgvbP/JeVj4OenCb+WD1sSAZqf6H2jtqdFOfyOM15bi6NcZ1y/+PwYODb1N6B3M2OqNeeYimxx9b2quxflMJ1BuKmzzPN2KpdG+5HhT2O1ShxjK5YyVpmiaSlJJ/rhSe+gcfXqjGrQrt/nE8Pk439rR3yw1eK3RPURT5mVGoEdl4+7rfqPCFWCav7c1tr2ZfKWSMDMt5+xLK71RIfQeGDm6qpx5GoTw9l8Tt3rsDtlU3eU+hGVwaFvB9pvDVyVeNzSCot5sKg+ByfgdXtNcKe8POmh2aD21N65RkzB77ferXtlLOaSPlMIbM0jqWGjCU31XoqolhGEn9MOa08wzPkMg+KHSWMZxlhjv6zgm/wm79KirIJGjrLfxLhe4ohVZxOqpS3Mkid1lG2dYXIkt3qqu3Tq2QWnbc5Csq5rgR+4oytDcgeLzX6EcFq/Iblb86iKC0pXTyoTIt7X33HYXmIk71SbaNd9QXbuhJuzDUiwXs6p7lpXqYFcbWpXYmW8PKwp2UUInurDAsXc2WkqS6DYXmLk4XE7hHvGOCQyPZTcIdRO84Epy0egUSpZJ/9mG71Tvu+cp7nG/IRmtqg9t6Q21KDq439hC6rL22h+DwgXZYt4g0evCKQlP3CpIRI8tQqUMli1rrk9ytk1fc5GQRk5O+5XlEuJl5FjHdLyTqDjNM0uis0F0YFs38cE+dHmY94KqFZ0Twi/zZFghfBFwhZMLBoL/ZsGQhDzXmU3lPnKiIB4F+ySRu4Kj8QqKRbG8G9NqxvV9dVTgrPJby1WQLv+unzZehuieN+MaOKbSoSb4V+6RzDJ1Z6E6ocq5wJCUn7iSPKHeWRsj2JxIoFGYSG5zO0uOvz3nGz8XNy5hMubm4558sDbRpWzjmNgzLeSnmGsjoHsjHPgOt5MXBgUh9W6GbUdvJ71kG2b14dqgzXxEvWC5VyEwNFsThTppW9dCpSPxa4cLTqxssyRsr1ne0Z7ZxxJQRF888/viLjNLheLUaD/rkCxAYjxBiepS1BiNSLjsDMkf7Q3FInDYEbTA4WQu5L06vKQRbw4Di7OKZYG6T5lcJemVrJBGpvsXnjZkRr0R86jLJs0qhacV1ITgxFq6Q1TnHXJJTZHSadAiEbq2QjsrWfEhdo2h52accOn3Yf7GHgqxo63WeQ4QhKtqlnbMW/dy+qtBfetslI4G55iTbU1NhZVulMGGxz6UK1bgu+Ihklyt0CqPOHzNvGYCSqteYQpjWEtzHSYqqJ+psAXHTBicq2kGpWIPJRzFv9fqb1fygzeUD+VyrVYrloGpyvK7QgEBKmWQ+/KrVLOKuKwzPb6TMyVkhxJ96oJ+IwoVRKeEKg0VMLo8XVU+cFUJohAipaEOBrqf4kqqXb8arzbDb6mvrnl1CZGmXolK1aAvXFcZNSb50o8KsqdCrFUbGMuAjmF7HFAqhtBWEbVJ/MndWOKcKjx2W22tgng46A3Au/GvTBRLMw2aDa/Mwbn6aF1yE0ncURmcnODs6Eqt5WPfShMy4LA6rjuBT9LQ1fD9e1kVjc5SKYOncztcXCtda3t/DidXmsGdZQtEuOuFqLF02qitzd/E2+7pCJ60nUlSkjlDHUqOOpZYHNwjrn4C8Sq9wISXqjQ8D6pqmCykeIovcJyGUILPnfl1RtEnIae9t+0Crnq69UVjF1F1dz/ijNGZecx1i48jbcqvddxXCX54PA55kmMJZnQ9nBlRpQrTlw9TUJaNKvmnSGC00W8znq/GLnZNsARlQVOZtQV59KdlqqrTZi5QXWxyyxYdi7wc9KM/H/VJ+r6ZJIzDLGVm6S4KAtyO7wWxmvqeQ5MfMd6FvJnz68ppGh5qG3GNUSLROyrwE9l0nkyqFAVRHjbEDCvOyLPfgqDW1sLXe21DlvOQ09wk0f9AaYNwRWSlDvmXeDAeD4YZK7/a/UYUXT+tHMS0tnIWX6Gq4lFI6IWE3hd2dRHJd/RQj8rYsHzKFLB8KbgRFTqZO4C93DXuKEZB7hOFC8ljCC3T6E5a3LKqwCmIb819eTxnrOa/VW+PpIc8PL2teuMynCp128osyry8aQpPyZUzXzoMpHG+Pp8fG8tLPQjrGAnWZpsVywh8iBeqiSFMrI7sjnRvkZCFxSjjhVdosY/PJD+HadBnymBFl7FvUYETusdWrzzYDdUeaqf6yKgZUKT0vuoS2zGk8bpO783m312jBzjXatHukidw835Kb62fXrIJ64DjOefnmnndN071oW1/h1idoY/f1YXpL51z/sWYwOGPeF41o9FTMUo91wanwPvac8lFYGLzMz7ztfS35uZijqAo43HOwcn6O/wLACZbGUo2iydajdZozyYpqyfYkuOqukJIk2S5oIPVTKd0F7130YJiRqqqjE4ut5kgdPZtABEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBLkP/wKJvPRbmdIMSQAAAABJRU5ErkJggg==',
         date: 'February 2024 - July 2024',
         description: 'I was involved in developing the frontend and backend of an e-commerce project. I worked on the front-end by using React, and the backend by using SpringBoot.',
         skills: [
@@ -199,56 +200,38 @@ export const ProjectsSet = [
         ]
     },
     {
-        projectImg: nextnode,
-        projectName: 'ChatApi',
-        date: 'December 2023',
-        projectDescription: 'ChatAPI is an API that allows users to develop a simple and interactive chat application. This API provides application developers with a chat feature that can be quickly integrated into the user interface.',
-        url: 'https://github.com/emreozkpln/chatapi-backend',
+        projectImg: springnext,
+        projectName: 'Home Finder',
+        date: 'December 2024',
+        projectDescription: 'My project, Home Finder, is a full-stack application built using Next.js and Spring Boot. It allows users to search for homes, filter and sort listings based on their preferences, and add new property listings. The application provides a user-friendly interface for browsing available homes, with powerful filtering options to help users find the perfect property. Additionally, it supports the addition of new listings, allowing property owners or agents to easily manage their advertisements. The integration of Next.js on the front end ensures a fast and responsive experience, while Spring Boot handles the backend logic, ensuring smooth communication and data processing.',
+        url: 'https://github.com/emreozkpln/home-finder-project',
         skills: [
-            {
-                skillName: 'Next Js',
-            },
-            {
-                skillName: 'Node Js',
-            },
-            {
-                skillName: 'Express Js',
-            },
-            {
-                skillName: 'Tailwind',
-            },
-            {
-                skillName: 'MongoDb',
-            },
-        ]
-    },
-    {
-        projectImg: springreact,
-        projectName: 'E-commerce WebSite',
-        date: 'September 2021',
-        projectDescription: 'This project is an advanced e-commerce platform designed to provide a seamless and user-friendly shopping experience. This platform appeals to businesses looking to establish a strong online presence by offering a wide range of features to streamline the online shopping process.',
-        url: 'https://github.com/emreozkpln/eTicaret-javaSpring-backend',
-        skills: [
-            {
-                skillName: 'React',
-            },
-            {
-                skillName: 'Redux',
-            },
             {
                 skillName: 'Spring Boot',
             },
             {
+                skillName: 'Next.js',
+            },
+            {
                 skillName: 'Postgresql',
+            },
+            {
+                skillName: 'Restful Api',
+            },
+            {
+                skillName: 'Elasticsearch',
+            },
+            {
+                skillName: 'Caching',
             },
         ]
     },
     {
         projectImg: spring,
-        projectName: 'Spring Boot Example Api',
-        date: 'February 2024',
-        projectDescription: 'In my Java Spring Boot API project, I have implemented the DTO (Data Transfer Object) pattern to facilitate efficient communication between different layers of the application. By adhering to this pattern, I ve ensured a structured and organized approach to handling data transfer within the project. DTOs serve as intermediary objects that encapsulate the data exchanged between the client and the server, promoting better separation of concerns and enhancing maintainability. Through this implementation, I ve fostered a clean and scalable architecture, enabling seamless integration and extensibility for future development endeavors.',
-        url: 'https://github.com/emreozkpln/spring-boot-example-api',
+        projectName: 'Flow-Sync',
+        date: 'September 2024',
+        projectDescription: 'My project, Flow-Sync, is a Java Spring Boot application that reads values from MQTT and provides real-time information to users. By integrating MQTT for data acquisition, the application continuously listens for incoming messages and processes them efficiently. This enables the system to deliver up-to-date information to users in real-time, ensuring a seamless and responsive experience. The architecture is designed for scalability and robustness, allowing it to handle various data streams and provide reliable notifications to users as data flows in.',
+        url: 'https://github.com/emreozkpln/flow-sync',
         skills: [
             {
                 skillName: 'Spring Boot',
@@ -257,11 +240,59 @@ export const ProjectsSet = [
                 skillName: 'Postgresql',
             },
             {
-                skillName: 'DtoPattern',
+                skillName: 'Flyway',
+            },
+            {
+                skillName: 'Restful Api',
+            }
+        ]
+    },
+    {
+        projectImg: spring,
+        projectName: 'Microservice E-Commerce',
+        date: 'October 2024',
+        projectDescription: 'My project is an e-commerce application built using a microservices architecture. This architecture allows each functionality of the application to be managed as independent services, enabling scalability and flexibility. The application provides the ability for users to write reviews on products, while caching techniques are employed to optimize performance. Additionally, with the integration of Elasticsearch, advanced search capabilities are provided, allowing fast and efficient queries on products. This structure enhances the applications scalability, ensuring it performs efficiently even under high traffic.',
+        url: 'https://github.com/emreozkpln/microservice-eCommerce',
+        skills: [
+            {
+                skillName: 'Spring Boot',
+            },
+            {
+                skillName: 'Postgresql',
+            },
+            {
+                skillName: 'Microservice',
             },
             {
                 skillName: 'Restful Api',
             },
+            {
+                skillName: 'Elasticsearch',
+            },
+            {
+                skillName: 'Caching',
+            },
+        ]
+    },
+    {
+        projectImg: spring,
+        projectName: 'Spring ElasticSearch',
+        date: 'July 2024',
+        projectDescription: 'My project is an Elasticsearch integration built with Spring Boot. It leverages Elasticsearch powerful search and indexing capabilities to handle large volumes of data efficiently. The application is designed to index and query data, enabling fast and accurate search results. Using Spring Boot, the project is structured for simplicity and scalability, ensuring smooth interaction between the backend and Elasticsearch. This setup allows for high-performance search functionalities, making it ideal for applications requiring complex querying and rapid data retrieval. The architecture is optimized to support future scaling and integration with other services.',
+        url: 'https://github.com/emreozkpln/spring-elasticsearch',
+        skills: [
+            {
+                skillName: 'Spring Boot',
+            },
+            {
+                skillName: 'Postgresql',
+            },
+            {
+                skillName: 'Restful Api',
+            },
+            {
+                skillName: 'Elasticsearch',
+            }
         ]
     }
 ]
