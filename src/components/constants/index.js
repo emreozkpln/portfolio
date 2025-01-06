@@ -8,7 +8,7 @@ export const Bio = {
     roles: ["Full Stack Developer"],
     description: 'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
     descriptionSkills: 'Here are some of my skills on which I have been working on for the past 2 years.',
-    cvUrl: 'https://drive.google.com/file/d/1FCSg3Gju69zNIKnGWQ-VoLTDLwO9hSS2/view?usp=sharing',
+    cvUrl: 'https://drive.google.com/file/d/1FHKGy_kTepQHfJwYMqaVo64Il4th5Zhm/view?usp=sharing',
     descriptionExperience: 'My work experience as a software engineer and working on different companies and projects.',
     descriptionProjects: 'I have worked on a wide range of projects. Here are some of my projects.',
     descriptionContact: 'Feel free to reach out to me for any questions or opportunities!',
